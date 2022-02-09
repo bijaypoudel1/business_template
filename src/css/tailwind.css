@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@300;400;700;900&family=Roboto:wght@400;500&display=swap');
+@tailwind base;
+
+@tailwind components;
+
+@font-face {
+    font-family: 'circular';
+    src: local('circular'), url(../public/fonts/circular-std-medium-500) format('ttf');
+  }
+
+@tailwind utilities;
+
+
+.list-style{
+ @apply cursor-pointer text-[14px] leading-[18px]
+}
+
